@@ -16,8 +16,7 @@ class String
   end
 
   def count_sentences
-    #split here needs RegEx and avoids splitting on commas
-    # uses reject method by rejecting empty strings
+    #refactor code. Split 
      count = self.split(/\?|!|\./).reject{|v| v.empty?}
      count.length
     
