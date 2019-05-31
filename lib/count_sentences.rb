@@ -20,7 +20,7 @@ class String
           # count = self.split(/\?|!|\./).reject{|v| v.empty?}
           # count.length
     
-    self.split(/[.?!] +/).count
+    self.split(/[.?!]+/).count
     
   end
 end
